@@ -253,7 +253,7 @@ def main():
 
     with col2:
         # AI Prediction Card
-        st.markdown("### 🔮 AI Temperature Forecast")
+        st.markdown("### 🔮  Temperature Forecast")
         
         # Using static prediction values
         st.markdown('<div class="prediction-card">', unsafe_allow_html=True)
@@ -311,4 +311,5 @@ def main():
     st.rerun()
 
 if __name__ == "__main__":
+
     main()
